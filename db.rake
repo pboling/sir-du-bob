@@ -1,3 +1,8 @@
+# Sir-Du-Bob Rake Tasks By Peter Boling
+# License: MIT
+# Copyright: 2007-2009 Peter Boling
+# Contact: peter dot boling at gmail dot com
+
 namespace :db do
   
   desc "Dumps the database into schema/env-data-{date}.sql.gz. Can also run with ENV=xxxx" 

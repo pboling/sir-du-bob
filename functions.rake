@@ -1,3 +1,8 @@
+# Sir-Du-Bob Rake Tasks By Peter Boling
+# License: MIT
+# Copyright: 2007-2009 Peter Boling
+# Contact: peter dot boling at gmail dot com
+
 def get_db_info(env, verbose)
   puts "DB settings for #{env}" if verbose
   content = File.read("config/database.yml")

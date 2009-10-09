@@ -1,3 +1,8 @@
+# Sir-Du-Bob Rake Tasks By Peter Boling
+# License: MIT
+# Copyright: 2007-2009 Peter Boling
+# Contact: peter dot boling at gmail dot com
+
 namespace :rsync do
   
   desc "rsync db dump file over ssh (secure!). Can also run with ENV=xxxx"
